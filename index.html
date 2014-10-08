@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Simple-node-realurl by lukekarrys</title>
+    <title>simple-realurl by lukekarrys</title>
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
@@ -17,19 +17,19 @@
   <body>
 
       <header>
-        <h1>Simple-node-realurl</h1>
+        <h1>simple-realurl</h1>
         <p></p>
       </header>
 
       <div id="banner">
         <span id="logo"></span>
 
-        <a href="https://github.com/lukekarrys/simple-node-realurl" class="button fork"><strong>View On GitHub</strong></a>
+        <a href="https://github.com/lukekarrys/simple-realurl" class="button fork"><strong>View On GitHub</strong></a>
         <div class="downloads">
           <span>Downloads:</span>
           <ul>
-            <li><a href="https://github.com/lukekarrys/simple-node-realurl/zipball/master" class="button">ZIP</a></li>
-            <li><a href="https://github.com/lukekarrys/simple-node-realurl/tarball/master" class="button">TAR</a></li>
+            <li><a href="https://github.com/lukekarrys/simple-realurl/zipball/master" class="button">ZIP</a></li>
+            <li><a href="https://github.com/lukekarrys/simple-realurl/tarball/master" class="button">TAR</a></li>
           </ul>
         </div>
       </div><!-- end banner -->
@@ -39,19 +39,25 @@
         <ul></ul>
       </nav>
       <section>
-        <h1>Node Simple Realurl</h1>
+        <h1>
+<a name="simple-realurl" class="anchor" href="#simple-realurl"><span class="octicon octicon-link"></span></a>simple-realurl</h1>
+
+<p><a href="https://nodei.co/npm/simple-realurl/"><img src="https://nodei.co/npm/simple-realurl.png" alt="NPM"></a>
+<a href="https://travis-ci.org/lukekarrys/simple-realurl"><img src="https://travis-ci.org/lukekarrys/simple-realurl.png?branch=master" alt="Build Status"></a></p>
 
 <p>A simple node module to convert short url's to the original url.</p>
 
 <p>Based off <a href="https://github.com/manuelvanrijn/node-realurl">Manuel van Rijn's original realurl</a>, I created this to remove some dependencies (copypaste) and any global bin files.</p>
 
-<h2>Getting Started</h2>
+<h2>
+<a name="getting-started" class="anchor" href="#getting-started"><span class="octicon octicon-link"></span></a>Getting Started</h2>
 
 <p>Install the module with: <code>npm install simple-realurl</code></p>
 
-<h3>Within your NodeJS project</h3>
+<h3>
+<a name="within-your-nodejs-project" class="anchor" href="#within-your-nodejs-project"><span class="octicon octicon-link"></span></a>Within your NodeJS project</h3>
 
-<div class="highlight"><pre><span class="kd">var</span> <span class="nx">realurl</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'realurl'</span><span class="p">);</span>
+<div class="highlight highlight-javascript"><pre><span class="kd">var</span> <span class="nx">realurl</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'realurl'</span><span class="p">);</span>
 <span class="nx">realurl</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s1">'http://goo.gl/BGV9x'</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">error</span><span class="p">,</span> <span class="nx">result</span><span class="p">)</span> <span class="p">{</span>
    <span class="c1">// error = null;</span>
    <span class="c1">// result = "http://github.com/manuelvanrijn/node-realurl";</span>
@@ -68,11 +74,13 @@
 <span class="p">});</span>
 </pre></div>
 
-<h2>Contributing</h2>
+<h2>
+<a name="contributing" class="anchor" href="#contributing"><span class="octicon octicon-link"></span></a>Contributing</h2>
 
 <p>In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using <a href="https://github.com/cowboy/grunt">grunt</a>.</p>
 
-<h2>Release History</h2>
+<h2>
+<a name="release-history" class="anchor" href="#release-history"><span class="octicon octicon-link"></span></a>Release History</h2>
 
 <ul>
 <li>2013/04/30 - v0.1.4 - <em>NEW FORK</em> - Removed all global, bin and copypaste code.</li>
@@ -80,13 +88,14 @@
 <li>2012/10/08 - v0.1.2 - Added copy to clipboard support.</li>
 <li>2012/10/03 - v0.1.1 - Fixed a bug regarding line endings...</li>
 <li>2012/10/02 - v0.1.0 - Initial release.</li>
-</ul><h2>License</h2>
+</ul><h2>
+<a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>License</h2>
 
 <p>Copyright (c) 2012 Manuel van Rijn - Licensed under the MIT license.</p>
       </section>
       <footer>
         <p>Project maintained by <a href="https://github.com/lukekarrys">lukekarrys</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></small></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></small></p>
       </footer>
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
